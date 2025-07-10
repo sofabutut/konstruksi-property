@@ -1,1 +1,2 @@
-![image](https://github.com/user-attachments/assets/d1380194-59e3-4985-97f6-ca69fd486c97)
+![image](https://github.com/user-attachments/assets/8869c108-a91f-403b-b15a-d891ddde6d45)
+Website Landing Page Responsive
