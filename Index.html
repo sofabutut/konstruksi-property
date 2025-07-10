@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PT. konstruksi abadi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Responsive Fixes Inline */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        box-shadow: 0 0 10px #ccc;
+        padding: 10px;
+      }
+      .nav-links.active {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      .split {
+        flex-direction: column;
+        text-align: center;
+      }
+      .detailed-services {
+        flex-direction: column;
+      }
+      .main-services {
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-wrapper {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <h1 class="logo">konstruksi</h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#why">Keunggulan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-full">
+    <div class="overlay">
+      <h1>PT. konstruksi abadi</h1>
+      <p>Mitra Profesional dalam Layanan Konstruksi, Keamanan, dan Pemeliharaan Gedung</p>
+      <a href="#about" class="btn">Kenali Kami Lebih Dekat</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container split">
+      <div class="text">
+        <h3 class="section-title">Tentang Kami</h3>
+        <p>PT. konstruksi abadi adalah mitra terpercaya dalam menyediakan solusi terintegrasi untuk sektor properti dan fasilitas. Fokus kami meliputi jasa konstruksi bangunan, pengelolaan kebersihan, layanan keamanan profesional, serta sistem instalasi mekanikal dan elektrikal (ME).</p>
+        <p>Kami hadir untuk mendukung operasional perusahaan Anda agar berjalan lebih efisien, aman, dan bernilai jangka panjang.</p>
+      </div>
+      <div class="image">
+        <img src="assets/proyek 2.jpeg" alt="Tentang Kami" style="width: 100%; border-radius: 12px;">
+      </div>
+    </div>
+  </section>
+
+<section class="section light" id="services">
+    <div class="container">
+      <h3 class="section-title" style="text-align:center">Layanan Utama Kami</h3>
+      <p class="subtext" style="text-align:center">Berikut layanan utama kami yang bisa Anda pesan :</p>
+      <div class="main-services">
+        <div class="main-service-card">
+          <img src="assets/mumbai construction photographs - Google Search.jpeg" alt="Konstruksi">
+          <div class="main-service-label">Jasa Renovasi</div>
+        </div>
+        <div class="main-service-card">
+          <img src="assets/download (4).jpeg" alt="Arsitek">
+          <div class="main-service-label">Jasa Arsitek</div>
+        </div>
+        <div class="main-service-card">
+          <img src="assets/PENYEDIAAN & PENGELOLAAN SATPAM.jpeg" alt="Kontraktor">
+          <div class="main-service-label">Kontraktor Bangunan</div>
+        </div>
+      </div>
+      <div class="detailed-services-wrapper">
+        <div class="detailed-services">
+          <ul>
+            <li>Jasa Renovasi dan Perbaikan Rumah</li>
+            <li>Jasa Renovasi dan Perbaikan Ruko</li>
+            <li>Jasa Renovasi dan Perbaikan Kamar Mandi</li>
+            <li>Jasa Renovasi dan Perbaikan Atap / Genteng</li>
+            <li>Jasa Renovasi dan Perbaikan Lantai</li>
+            <li>Jasa Renovasi dan Perbaikan Pagar</li>
+            <li>Jasa Renovasi Meningkat Rumah</li>
+            <li>Jasa Renovasi Tambah Ruangan</li>
+            <li>Jasa Renovasi Membuat Dak</li>
+            <li>Jasa Pengecatan</li>
+            <li>Jasa Kontraktor Bangunan Rumah</li>
+            <li>Jasa Kontraktor Bangunan Ruko</li>
+          </ul>
+          <ul>
+            <li>Jasa Kontraktor Bangunan Kolam Renang</li>
+            <li>Jasa Kontraktor Bangunan Kost</li>
+            <li>Jasa Kontraktor Bangunan Carport</li>
+            <li>Jasa Arsitek</li>
+            <li>Jasa desain arsitek rumah 3D</li>
+            <li>Jasa gambar kerja</li>
+            <li>Jasa desain interior</li>
+            <li>Jasa interior</li>
+            <li>Jasa Partisi</li>
+            <li>Jasa Instalasi Kanopi</li>
+            <li>Jual Rangka Atap Baja Ringan</li>
+            <li>Jual Rolling Door</li>
+            <li>Jasa Kusen Pintu dan Jendela</li>
+            <li>Jasa Pengeboran Sumur</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="why">
+    <div class="container split">
+      <div class="text">
+        <h3 class="section-title">Keunggulan Kami</h3>
+        <ul class="advantages">
+          <li>✅ Tim berpengalaman & profesional</li>
+          <li>✅ Harga kompetitif dan transparan</li>
+          <li>✅ Layanan cepat dan tepat waktu</li>
+          <li>✅ Khusus melayani B2B (perusahaan)</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/Construction Site Skyline.jpeg" alt="Keunggulan" style="width: 100%; border-radius: 12px;">
+      </div>
+    </div>
+  </section>
+
+  <section class="section light" id="contact">
+    <div class="container contact-wrapper" style="display: flex; flex-wrap: wrap; gap: 40px;">
+      <div class="text" style="flex: 1 1 300px;">
+        <h3 class="section-title">Hubungi Kami</h3>
+        <p>Jika Anda tertarik dengan layanan kami, jangan ragu untuk menghubungi tim kami melalui formulir berikut atau klik tombol WhatsApp di bawah ini.</p>
+        <a href="https://wa.me/nomoranda" class="btn">Hubungi via WhatsApp</a>
+      </div>
+      <form class="contact-form" style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 12px;">
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan Anda" required></textarea>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 PT. FIRNIE ALATAZ MALANIHAT. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+        nav.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
